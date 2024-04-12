@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+.inputs{
+    padding: 2rem 0 2rem 0;
+    justify-content: center;
+    text-align: center;
+    background-color: lightpink;
+    height: 150px;
+}
+
+.inputs input[type="text"]{
+height: 4rem;
+width: 20rem;
+background: rgb(148, 148, 148);
+color: black;
+background-color: transparent;
+text-transform: capitalize;
+border-radius: 12px;
+border-color: black;
+}
+.inputs input[type="submit"]{
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+}
+.display{
+    background-image: url(image/sky.jpg);
+    text-align: center;
+    width: 520px;
+    /* color: rgb(65, 199, 155); */
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: beige;
+    height: 50vh;
+    margin: 50px auto;
+    border-radius:2px ;
+    background-image: url('image/sky.jpg');
+}
+.wrapper h2{
+    text-align: center;
+    padding: 5px 0;
+    background:skyblue;
+    color: darkblue;
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 23px;
+    color: blue;
+}
+.wrapper h2 span{
+    font-size: 25px;
+    color: darkblue;
+}
+.wrapper p span{
+    font-size: 26px;
+    color: black;
+}
